@@ -11,6 +11,8 @@ env:
   SUBSCRIPTION-ID: 3ebf8189-e5f4-4c4d-a65b-d64218be6e53
   WEBAPP-NAME: eshoponweb-webapp-bsailer-666
 
+on:
+  workflow_dispatch:
 
 jobs:
   #Build, test and publish .net web project in repository
